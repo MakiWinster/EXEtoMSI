@@ -1,0 +1,30 @@
+# 自动处理行尾符号
+* text=auto
+
+# 强制 Unix 风格的换行符 LF
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# 合并冲突标记为二进制文件，避免在文件中插入冲突标记
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# Git LFS (Large File Storage) 示例（如果你使用 Git LFS，可以启用以下内容）
+# *.psd filter=lfs diff=lfs merge=lfs -text
+
+# 处理语言和文件类型的配置
+*.cs diff=csharp
+*.cpp diff=cpp
+*.h diff=cpp
+*.html text
+*.css text
+*.js text

@@ -1,0 +1,28 @@
+# 忽略 Visual Studio 文件
+.vs/
+*.user
+*.suo
+*.ncb
+*.sdf
+*.sln.docstates
+
+# 忽略编译输出文件夹
+bin/
+obj/
+
+# 忽略 NuGet 包
+*.nupkg
+*.snupkg
+packages/
+
+# 忽略日志文件
+*.log
+
+# 忽略操作系统生成的文件
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
